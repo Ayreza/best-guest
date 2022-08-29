@@ -1,8 +1,0 @@
-@font-face {
-  font-family: "vazir";
-  src: url(./fonts/Vazir-Black.woff2) format(woff2);
-}
-html {
-  font-family: "vazir";
-  font-size: 100%;
-}
