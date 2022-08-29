@@ -1,0 +1,85 @@
+body { direction: rtl;
+margin: 0;
+padding: 0;
+list-style: none;
+box-sizing: border-box;
+text-decoration: none;
+
+}
+.top-nav {
+    display: flex;
+    position: fixed;
+    background: white;
+    width: 99vw;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    border-radius: 10px;
+    background-color: #f1f1f1;  
+    margin-right: .5vw;
+    margin-top: .5vw;
+}
+.logo {
+    margin-left: .5rem;
+}
+.spacer {
+    flex:1;
+}
+
+.searchbox input { 
+    border-radius: 8px;
+    width: 26em;
+    padding: 0.7em ;
+    -webkit-box-shadow: 0px 0px 11px 4px #cfdef346; 
+box-shadow: 0px 0px 11px 4px #cfdef346;
+}
+.profile ul li {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px;
+    transition: 500ms;
+
+}
+.drop-down ul {
+    margin: 0;
+    padding: 0;
+}
+.profile-list {
+    position: absolute;
+    display:flex;
+    background: linear-gradient(#E0EAFC , #CFDEF3);
+    flex-direction: column;
+    border: 3px solid rgba(28,110,164,0.22);
+border-radius: 15px 15px 15px 15px;
+
+}
+.profile-list li a {
+    color: black;
+  padding: 8px 9px;
+  text-decoration: none;
+
+}
+.profile-list li:hover {
+    margin: 5px;
+ background-color: #ddd;
+border-radius: 5px 5px 5px 5px;
+
+}
+.profile ul li:hover .drop-down {
+    display: block;
+}
+
+.drop-down {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin: 7px -10px 0px 0px;
+}
+}
+.profile-list ul {
+    margin: 5px -27px 6px 7px;
+}

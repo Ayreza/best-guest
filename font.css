@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "shabnam";
+  src: url(./shabnam/Shabnam-Medium.woff2) format(woff2);
+}
+html {
+  font-family: "shabnam";
+  font-size: 100%;
+}
