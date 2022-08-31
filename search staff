@@ -1,0 +1,47 @@
+css 
+.searchbox {
+    display: flex;
+    border: solid 2px #d3cce3;
+    justify-content: center;
+    border-radius: 5px;
+  
+  }
+  .searchbtn {
+    height: 80%;
+    cursor: pointer;
+    padding: 1rem;
+    margin-left: 1rem;
+  }
+  .searchdivider {
+    background-color: #d3cce3;
+    width: 1px;
+    margin:0 .5rem;
+  }
+  .searchdn {
+    color: purple;
+    cursor: pointer;
+    border: none;
+    background:white;
+    padding: 0 0.7rem;
+    border-radius: 5px;
+    margin: 0.4rem;
+    transition: 500ms;
+  }
+  .searchdn:hover{
+    background: purple;
+    color: white;
+  }
+  html => ---------------------------------------------------------
+  <div class="searchbox">
+          <div class="searchbtn">انتخاب مقصد</div>
+          <div class="searchdivider"></div>
+          <div class="searchbtn">تاریخ ورود</div>
+          <div class="searchdivider"></div>
+          <div class="searchbtn">تاریخ خروج</div>
+          <div class="searchdivider"></div>
+          <div class="searchbtn">تعداد نفرات</div>
+          <div class="searchdivider"></div>
+          <button class="searchdn">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>

@@ -1,5 +1,5 @@
 let modal = document.getElementById("mymodal");
-let btn = document.getElementsByClassName("signupbtn")[0];
+let btn = document.getElementsByClassName("mybtn")[0];
 let close = document.getElementsByClassName("close-modal")[0];
 btn.onclick = function () {
   modal.style.display = "flex";

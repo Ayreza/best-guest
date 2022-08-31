@@ -1,53 +1,15 @@
 body {
   direction: rtl;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  background: linear-gradient(to right, #3e3e3e 0%, #737376 50%, #232323 100%);
 }
-.nav-bg {
-  background: #3e3e3e;
-  position: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-.nav {
-  display: flex;
-  color: black;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  padding: 1rem;
-  border-radius: 10px;
-  width: 80%;
-  margin: auto;
-}
-
-.spacer {
-  flex: 1;
-}
-.signupbtn {
-  background: black;
-  color: #efefef;
-  border-radius: 5px;
-  padding: 0.5em 1rem;
-  margin-left: 0.7rem;
-}
-.userstaff i {
-  font-size: 1.2rem;
-  color: black;
-  align-self: center;
-  margin-top: 0.1rem;
-}
-/* signup  */
-
 .bg-black {
   background-color: #000;
 }
 #mymodal {
-  display: none;
+   display: none; 
 }
 .back i {
   font-size: 2rem;
@@ -55,7 +17,7 @@ body {
   background-color: #bdbdbd;
   border-radius: 50%;
 }
-.background {z-index: 1;
+.background {
   background-color: #00000057;
   display: flex;
   color: white;
@@ -63,7 +25,6 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  
 }
 .signuphome {
   display: flex;
@@ -87,8 +48,8 @@ body {
   background-color: rgba(0, 0, 0, 0.618);
 }
 /* .inputcontainer {
-    border: solid 12px linear-gradient(to right, #7f00ff, #e100ff);
-  } */
+  border: solid 12px linear-gradient(to right, #7f00ff, #e100ff);
+} */
 
 .haveacc {
   display: flex;
@@ -113,3 +74,4 @@ body {
 .haveacc h3 {
   color: rgb(135, 135, 135);
 }
+
