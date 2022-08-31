@@ -1,5 +1,6 @@
 body {
   direction: rtl;
+  
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -34,12 +35,23 @@ body {
   border-radius: 5px;
   padding: 0.5em 1rem;
   margin-left: 0.7rem;
+  cursor: pointer;
+}
+.signupbtn:hover {
+  background-color: #737376;
+  color: #000;
+  transition: 400ms;
 }
 .userstaff i {
   font-size: 1.2rem;
   color: black;
   align-self: center;
   margin-top: 0.1rem;
+  cursor: pointer;
+  transition: 400ms;
+}
+.userstaff i:hover {
+  color: #737376;
 }
 /* signup  */
 
@@ -55,7 +67,8 @@ body {
   background-color: #bdbdbd;
   border-radius: 50%;
 }
-.background {z-index: 1;
+.background {
+  z-index: 1;
   background-color: #00000057;
   display: flex;
   color: white;
@@ -63,7 +76,6 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
-  
 }
 .signuphome {
   display: flex;
@@ -112,4 +124,66 @@ body {
 }
 .haveacc h3 {
   color: rgb(135, 135, 135);
+}
+/* search => main */
+.mainsearch {
+  background: #232323 url(./pics/pexels-lukas-kloeppel-577697.jpg) no-repeat
+    center center / cover;
+  height: 90vh;
+  margin: 0rem 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* searchbox */
+.searchbox {
+  display: flex;
+  border: solid 2px #d3cce3;
+  justify-content: center;
+  border-radius: 10px;
+  background: #232323;
+  color: #efefef;
+  margin-bottom: 3rem;
+}
+.searchbtn {
+  height: 80%;
+  cursor: pointer;
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+.searchdivider {
+  background-color: #d3cce3;
+  width: 1px;
+  margin: 0 0.5rem;
+}
+.searchdn {
+  color: #232323;
+  cursor: pointer;
+  border: none;
+  background: white;
+  padding: 0 0.7rem;
+  border-radius: 5px;
+  margin: 0.4rem;
+  transition: 500ms;
+}
+.searchdn:hover {
+  background: #232323;
+  color: white;
+}
+.speach {
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 0px 0px 19px rgba(0, 0, 0, 0.34);
+  font-weight: 552;
+  color: #efefef;
+  margin-bottom: 2rem;
+}
+.speach p {
+  font-size: 1.5rem;
+  color: #737376;
 }
