@@ -1,6 +1,6 @@
 body {
   direction: rtl;
-  
+
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -60,11 +60,19 @@ body {
 }
 #mymodal {
   display: none;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  position: fixed;
 }
 .back i {
   font-size: 2rem;
+  cursor: pointer;
   color: #0000006c;
-  background-color: #bdbdbd;
+  background: linear-gradient(to right, #7f00ff, #e100ff);
   border-radius: 50%;
 }
 .background {
