@@ -12,7 +12,7 @@
       src="https://kit.fontawesome.com/93ac4a081a.js"
       crossorigin="anonymous"
     ></script>
-    <script defer src="./main.js"></script>
+    <script src="./main.js" defer></script>
   </head>
   <body>
     <div class="nav-bg">
@@ -95,20 +95,129 @@
         >
         <p>همین الان رزرو کن</p>
       </div>
-      
-      <div class="searchbox">
-        <div class="searchbtn">انتخاب مقصد</div>
+
+      <div class="searchbox searchmodal">
+        <div class="search-element">
+          <button class="destination searchbtn">انتخاب مقصد</button>
+          <p class="search-detail locinfo"></p>
+          <div class="dp-none Collapsible">
+            <input type="text" class="loc-input" />
+          </div>
+        </div>
         <div class="searchdivider"></div>
-        <div class="searchbtn">تاریخ ورود</div>
+        <div class="search-element">
+          <button class="booking-in searchbtn">تاریخ ورود</button>
+          <p class="search-detail bookin-info"></p>
+          <div class="dp-none Collapsible">
+            <input type="text" class="reserve-date" />
+          </div>
+        </div>
         <div class="searchdivider"></div>
-        <div class="searchbtn">تاریخ خروج</div>
+        <div class="search-element">
+          <button class="booking-out searchbtn">تاریخ ورود</button>
+          <p class="search-detail bookout-info"></p>
+          <div class="dp-none Collapsible">
+            <input type="text" class="reserve-date" />
+          </div>
+        </div>
         <div class="searchdivider"></div>
-        <div class="searchbtn">تعداد نفرات</div>
-        <div class="searchdivider"></div>
+        <div class="search-element">
+          <button class="booking-in searchbtn">تعداد نفرات</button>
+          <p class="search-detail guest-num"></p>
+          <div class="dp-none Collapsible">
+            <input type="text" class="guest-input" />
+          </div>
+        </div>
         <button class="searchdn">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </div>
     </div>
+    <div class="suggested">
+      <h2 class="sec-header">مکان های محبوب</h2>
+      <div class="home-list">
+        <div class="sg-home">
+          <div class="picrate">
+            <img
+              src="https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720"
+              alt="beautiful house"
+            />
+            <div class="rating">4.5<i class="fa-solid fa-star"></i></div>
+          </div>
+
+          <div class="house-title">عنوان خانه</div>
+          <div class="hex">
+            <div class="hex-guest-number">5 نفر</div>
+            <div class="hex-loc">تهران</div>
+          </div>
+          <div class="price">10000 $</div>
+        </div>
+        <div class="sg-home">
+          <div class="picrate">
+            <img
+              src="https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720"
+              alt="beautiful house"
+            />
+            <div class="rating">4.5<i class="fa-solid fa-star"></i></div>
+          </div>
+
+          <div class="house-title">عنوان خانه</div>
+          <div class="hex">
+            <div class="hex-guest-number">5 نفر</div>
+            <div class="hex-loc">تهران</div>
+          </div>
+          <div class="price">10000 $</div>
+        </div>
+        <div class="sg-home">
+          <div class="picrate">
+            <img
+              src="https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720"
+              alt="beautiful house"
+            />
+            <div class="rating">4.5<i class="fa-solid fa-star"></i></div>
+          </div>
+
+          <div class="house-title">عنوان خانه</div>
+          <div class="hex">
+            <div class="hex-guest-number">5 نفر</div>
+            <div class="hex-loc">تهران</div>
+          </div>
+          <div class="price">10000 $</div>
+        </div>
+        <div class="sg-home">
+          <div class="picrate">
+            <img
+              src="https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720"
+              alt="beautiful house"
+            />
+            <div class="rating">4.5<i class="fa-solid fa-star"></i></div>
+          </div>
+
+          <div class="house-title">عنوان خانه</div>
+          <div class="hex">
+            <div class="hex-guest-number">5 نفر</div>
+            <div class="hex-loc">تهران</div>
+          </div>
+          <div class="price">10000 $</div>
+        </div>
+        <div class="sg-home">
+          <div class="picrate">
+            <img
+              src="https://a0.muscache.com/im/pictures/e25a9b25-fa98-4160-bfd1-039287bf38b6.jpg?im_w=720"
+              alt="beautiful house"
+            />
+            <div class="rating">4.5<i class="fa-solid fa-star"></i></div>
+          </div>
+
+          <div class="house-title">عنوان خانه</div>
+          <div class="hex">
+            <div class="hex-guest-number">5 نفر</div>
+            <div class="hex-loc">تهران</div>
+          </div>
+          <div class="price">10000 $</div>
+        </div>
+      </div>
+    </div>
+    <div class="myclass"></div>
   </body>
 </html>
